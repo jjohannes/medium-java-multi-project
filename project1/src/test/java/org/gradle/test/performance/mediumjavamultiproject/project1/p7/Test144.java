@@ -10,7 +10,7 @@ public class Test144 {
     public void testProperty0() {
         String value = "value";
         objectUnderTest.setProperty0(value);
-        assertEquals(value, objectUnderTest.getProperty0());
+        assertEquals(value + "1", objectUnderTest.getProperty0());
     }
 
     @Test
